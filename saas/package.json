@@ -1,0 +1,14 @@
+{
+	"name": "multiCapabilities",
+	"version": "0.0.0",
+	"scripts": {
+		"test-e2e-sauce": "protractor example/conf.js"
+	},
+	"devDependencies": {
+		"protractor": "^1.0.0"
+	},
+	"dependencies": {
+		"lodash": "^2.4.1"
+	}
+
+}
