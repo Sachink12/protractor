@@ -36,6 +36,7 @@ config.multiCapabilities = [
     browsers.chrome,
     browsers.firefox,
     browsers.safari
+    //browsers.ie9,
 
 
 ]
