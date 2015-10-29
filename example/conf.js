@@ -13,6 +13,14 @@ var config = {
 
   // Framework to use. Jasmine 2 is recommended.
   framework: 'jasmine2',
+  onPrepare: function() {
+        var jasmineReporters = require('jasmine-reporters');
+        jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
+            consolidateAll: true,
+            filePrefix: 'TEST-report.xml',
+            savePath: 'reports'
+        }));
+    },
 
   // Spec patterns are relative to the current working directly when
   // protractor is called.

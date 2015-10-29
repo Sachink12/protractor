@@ -36,6 +36,7 @@
     "chai": "~1.8.1",
     "chai-as-promised": "~4.1.0",
     "jshint": "2.5.0",
+    "jasmine-reporters": "^2.0.0",
     "mocha": "1.21.4",
     "cucumber": "~0.4.9",
     "express": "~3.3.4",
