@@ -33,8 +33,8 @@ var config = {
     includeStackTrace: true,
     defaultTimeoutInterval: 300000
   },
-  sauceUser: 'sachink12',
-  sauceKey: 'ed57321d-2274-479a-898c-158b95c97d31',
+  sauceUser: 'node_js',
+  sauceKey: '89924e9c-2a2a-402e-ad04-71e9ca4f2d4f',
 
 
 };
